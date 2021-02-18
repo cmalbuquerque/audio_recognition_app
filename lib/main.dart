@@ -11,9 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
+      theme: ThemeData.dark(),
       home: MyHomePage(),
     );
   }
@@ -69,7 +67,13 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/background.jpg"),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -79,23 +83,23 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   "What's this sound?",
                   style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 70,
+                    color: Colors.white,
+                    fontSize: 60,
                     fontWeight: FontWeight.w200,
                   ),
                 ),
               ),
-              Text(
-                '$_sound',
-                style: Theme.of(context).textTheme.headline5,
-              ),
               MaterialButton(
                 onPressed: _recorder,
-                color: _recording ? Colors.grey : Colors.red,
+                color: _recording ? Colors.grey : Colors.pink,
                 textColor: Colors.white,
                 child: Icon(Icons.mic, size: 60),
                 shape: CircleBorder(),
                 padding: EdgeInsets.all(25),
+              ),
+              Text(
+                '$_sound',
+                style: Theme.of(context).textTheme.headline5,
               ),
             ],
           ),
