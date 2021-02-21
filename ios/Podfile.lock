@@ -1,0 +1,41 @@
+PODS:
+  - Flutter (1.0.0)
+  - TensorFlowLiteC (2.4.0):
+    - TensorFlowLiteC/Core (= 2.4.0)
+  - TensorFlowLiteC/Core (2.4.0)
+  - TensorFlowLiteSelectTfOps (2.4.0)
+  - TensorFlowLiteSwift (2.4.0):
+    - TensorFlowLiteSwift/Core (= 2.4.0)
+  - TensorFlowLiteSwift/Core (2.4.0):
+    - TensorFlowLiteC (= 2.4.0)
+  - "tflite_audio (0.1.5+3)":
+    - Flutter
+    - TensorFlowLiteSwift
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - TensorFlowLiteSelectTfOps
+  - tflite_audio (from `.symlinks/plugins/tflite_audio/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSelectTfOps
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  tflite_audio:
+    :path: ".symlinks/plugins/tflite_audio/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  TensorFlowLiteC: 09f8ac75a76caeadb19bcfa694e97454cc1ecf87
+  TensorFlowLiteSelectTfOps: f8053d3ec72032887b832d2d060015d8b7031144
+  TensorFlowLiteSwift: f062dc1178120100d825d7799fd9f115b4a37fee
+  tflite_audio: a86072798e244aee680578e79a0bcb5cfdaa068a
+
+PODFILE CHECKSUM: 5b1ed022f615a52435966dc271eafa84954d7abb
+
+COCOAPODS: 1.10.1
