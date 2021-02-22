@@ -1,4 +1,4 @@
-[![MIT License][license-shield]][license-url]
+[![Stars][stars-shield]][stars-url]
 [![Medium][medium-shield]][medium-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -42,15 +42,9 @@ This [article]() explores not only how this app was developed but also how to pr
 </a>
 
 
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[stars-shield]: https://img.shields.io/github/stars/cmalbuquerque/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/cmalbuquerque/repo/audio_recognition_app
 [medium-shield]: https://img.shields.io/badge/-Medium-black.svg?style=for-the-badge&logo=medium&colorB=555
 [medium-url]: https://
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://www.linkedin.com/in/carolina-albuquerque29/
