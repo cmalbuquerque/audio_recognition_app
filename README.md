@@ -1,4 +1,3 @@
-[![Stars][stars-shield]][stars-url]
 [![Medium][medium-shield]][medium-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -34,7 +33,7 @@ flutter pub get
 flutter run
 ```
 
-This [article]() explores not only how this app was developed but also how to prepare both environments (Android and iOS) for the Tensorflow Lite.
+This [article](https://carolinamalbuquerque.medium.com/audio-recognition-using-tensorflow-lite-in-flutter-application-8a4ad39964ae) explores not only how this app was developed but also how to prepare both environments (Android and iOS) for the Tensorflow Lite.
 
 ## Authors
 <a href="https://github.com/cmalbuquerque/audio_recognition_app/graphs/contributors">
