@@ -44,6 +44,6 @@ This [article](https://carolinamalbuquerque.medium.com/audio-recognition-using-t
 [stars-shield]: https://img.shields.io/github/stars/cmalbuquerque/repo.svg?style=for-the-badge
 [stars-url]: https://github.com/cmalbuquerque/repo/audio_recognition_app
 [medium-shield]: https://img.shields.io/badge/-Medium-black.svg?style=for-the-badge&logo=medium&colorB=555
-[medium-url]: https://
+[medium-url]: https://carolinamalbuquerque.medium.com/audio-recognition-using-tensorflow-lite-in-flutter-application-8a4ad39964ae
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/carolina-albuquerque29/
